@@ -11,3 +11,9 @@ References Links: http://pallen.ece.gatech.edu/Academic/ECE_6440/Summer_2003/L07
                   http://www.cppsim.com/PLL_Lectures/digital_pll_cicc_tutorial_perrott.pdf
                   https://www.gaussianwaves.com/2019/02/implementing-a-matched-filter-system-with-srrc-filtering/
                   http://read.pudn.com/downloads103/ebook/421711/pll_5ed.pdf
+                  
+Our youtube link : https://www.youtube.com/channel/UC6kQXaJL9kH9UVBqINl_JVQ 
+Our youtube video link : https://www.youtube.com/watch?v=5deC7e1d99U
+Our project link : https://projects.digilentinc.com/13aktk/adpll-design-for-transceiver-2158d6
+
+This project created by Seda Esen & Berkay Ergün & Hasan Toskar If you have a question please connect with us on vhdlcankaya@gmail.com
