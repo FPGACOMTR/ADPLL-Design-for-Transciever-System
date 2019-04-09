@@ -1,0 +1,21 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Fri Mar 15 15:48:07 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk_in" LOCATE = SITE "V10" LEVEL 1;
+COMP "output<0>" LOCATE = SITE "K2" LEVEL 1;
+COMP "output<1>" LOCATE = SITE "K1" LEVEL 1;
+COMP "output<2>" LOCATE = SITE "L4" LEVEL 1;
+COMP "output<3>" LOCATE = SITE "L3" LEVEL 1;
+COMP "output<4>" LOCATE = SITE "J3" LEVEL 1;
+COMP "output<5>" LOCATE = SITE "J1" LEVEL 1;
+COMP "output<6>" LOCATE = SITE "K3" LEVEL 1;
+COMP "output<7>" LOCATE = SITE "K5" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "temp_clk_out" BEL "count_0" BEL "count_1" BEL
+        "count_2" BEL "count_3" BEL "count_4" BEL "count_5" BEL "count_6" BEL
+        "count_7" BEL "count_8" BEL "count_9" BEL "count_10" BEL "count_11"
+        BEL "count_14" BEL "count_12" BEL "count_13" BEL "count_15" BEL
+        "clk_out_original_OBUF_BUFG" BEL "clk_out_original";
+SCHEMATIC END;
+
