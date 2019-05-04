@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sat May  4 14:12:52 2019
+# Process ID: 17340
+# Current directory: C:/Users/Asus/Desktop/transmitter_final/transmitter_final.runs/synth_1
+# Command line: vivado.exe -log transmitter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source transmitter.tcl
+# Log file: C:/Users/Asus/Desktop/transmitter_final/transmitter_final.runs/synth_1/transmitter.vds
+# Journal file: C:/Users/Asus/Desktop/transmitter_final/transmitter_final.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source transmitter.tcl -notrace

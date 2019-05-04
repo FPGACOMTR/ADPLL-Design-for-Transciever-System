@@ -1,0 +1,84 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 16004
+License: Customer
+
+Current time: 	5/4/19 11:20:07 PM EEST
+Time zone: 	Eastern European Time (Asia/Istanbul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 54 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/vivado/Vivado/2017.2/tps/win64/jre
+JVM executable location: 	D:/vivado/Vivado/2017.2/tps/win64/jre/bin/java.exe
+Java library paths: D:/vivado/Vivado/2017.2/bin/unwrapped/win64.o;C:/WINDOWS/Sun/Java/bin;C:/WINDOWS/system32;C:/WINDOWS;D:/vivado/Vivado/2017.2/bin;D:/vivado/Vivado/2017.2/lib/win64.o;D:/vivado/Vivado/2017.2/tps/win64/jre/bin/server;D:/vivado/Vivado/2017.2/tps/win64/jre/bin;D:/vivado/SDK/2017.2/bin;D:/vivado/Vivado/2017.2/ids_lite/ISE/bin/nt64;D:/vivado/Vivado/2017.2/ids_lite/ISE/lib/nt64;D:/vivado/Vivado_HLS/2017.2/bin;C:/ProgramData/Oracle/Java/javapath;C:/Program Files (x86)/Intel/iCLS Client/;C:/Program Files/Intel/iCLS Client/;C:/Windows/system32;C:/Windows;C:/Windows/System32/Wbem;C:/Windows/System32/WindowsPowerShell/v1.0/;C:/Program Files/Intel/Intel(R) Management Engine Components/DAL;C:/Program Files/Intel/Intel(R) Management Engine Components/IPT;C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL;C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT;C:/Program Files/Intel/WiFi/bin/;C:/Program Files/Common Files/Intel/WirelessCommon/;C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/;C:/Program Files/Microsoft SQL Server/110/Tools/Binn/;C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common;C:/Users/Asus/.dnx/bin;C:/Program Files/Microsoft DNX/Dnvm/;C:/Program Files (x86)/Blueberry Software/BB FlashBack SDK;C:/Program Files/MATLAB/R2017b/bin;C:/Program Files/MATLAB/MATLAB Production Server/R2015a/runtime/win64;C:/Program Files/MATLAB/MATLAB Production Server/R2015a/bin;C:/Program Files/MATLAB/MATLAB Production Server/R2015a/polyspace/bin;D:/math/runtime/win64;D:/math/bin;D:/matlabbbbb/runtime/win64;D:/matlabbbbb/bin;C:/Program Files (x86)/Microchip/MPLAB C32 Suite/bin;C:/Program Files (x86)/HI-TECH Software/PICC/9.82/bin;C:/WINDOWS/System32/OpenSSH/;C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR;D:/math/polyspace/bin;C:/Program Files/PuTTY/;C:/Users/Asus/AppData/Local/Microsoft/WindowsApps;;C:/modeltech64_10.5/win64;C:/Modeltech_pe_edu_10.4a/win32pe_edu;D:/vivado/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/bin;D:/vivado/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/libexec/gcc/x86_64-w64-mingw32/6.2.0;.
+
+User name: 	Asus
+User home directory: C:/Users/Asus
+User working directory: C:/Users/Asus/Desktop/GITHUB_DIGILENT/repo/transmitter_final
+User country: 	TR
+User language: 	tr
+User locale: 	tr_TR
+
+RDI_BASEROOT: D:/vivado/Vivado
+HDI_APPROOT: D:/vivado/Vivado/2017.2
+RDI_DATADIR: D:/vivado/Vivado/2017.2/data
+RDI_BINDIR: D:/vivado/Vivado/2017.2/bin
+
+User preferences location: C:/Users/Asus/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/Asus/AppData/Roaming/Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: C:/Users/Asus/AppData/Roaming/Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	D:/vivado/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	C:/Users/Asus/Desktop/GITHUB_DIGILENT/repo/transmitter_final/.Xil/Vivado-16004-Asus-pc
+
+GUI allocated memory:	187 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 645 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 55 MB (+54834kb) [00:00:06]
+// [Engine Memory]: 467 MB (+338078kb) [00:00:06]
+// Opening Vivado Project: C:\Users\Asus\Desktop\GITHUB_DIGILENT\repo\transmitter_final\transmitter_final.xpr. Version: Vivado v2017.2 
+// bs:g (cg:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Asus/Desktop/GITHUB_DIGILENT/repo/transmitter_final/transmitter_final.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Asus/Desktop/GITHUB_DIGILENT/repo/transmitter_final/transmitter_final.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Asus/Desktop/transmitter_final' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 614 MB (+130005kb) [00:00:09]
+// [GUI Memory]: 60 MB (+2247kb) [00:00:11]
+// [GUI Memory]: 67 MB (+4466kb) [00:00:12]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2017.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 648 MB. GUI used memory: 40 MB. Current time: 5/4/19 11:20:07 PM EEST
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 899.570 ; gain = 145.254 
+// Project name: transmitter_final; location: C:/Users/Asus/Desktop/GITHUB_DIGILENT/repo/transmitter_final; part: xc7z010clg400-1
+// [Engine Memory]: 653 MB (+8202kb) [00:00:13]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 

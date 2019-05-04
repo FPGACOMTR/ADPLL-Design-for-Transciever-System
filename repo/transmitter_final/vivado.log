@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sat May  4 23:19:50 2019
+# Process ID: 16004
+# Current directory: C:/Users/Asus/Desktop/GITHUB_DIGILENT/repo/transmitter_final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9964 C:\Users\Asus\Desktop\GITHUB_DIGILENT\repo\transmitter_final\transmitter_final.xpr
+# Log file: C:/Users/Asus/Desktop/GITHUB_DIGILENT/repo/transmitter_final/vivado.log
+# Journal file: C:/Users/Asus/Desktop/GITHUB_DIGILENT/repo/transmitter_final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Asus/Desktop/GITHUB_DIGILENT/repo/transmitter_final/transmitter_final.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Asus/Desktop/transmitter_final' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 899.570 ; gain = 145.254
+update_compile_order -fileset sources_1

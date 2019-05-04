@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sat May  4 23:19:50 2019
+# Process ID: 16004
+# Current directory: C:/Users/Asus/Desktop/GITHUB_DIGILENT/repo/transmitter_final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9964 C:\Users\Asus\Desktop\GITHUB_DIGILENT\repo\transmitter_final\transmitter_final.xpr
+# Log file: C:/Users/Asus/Desktop/GITHUB_DIGILENT/repo/transmitter_final/vivado.log
+# Journal file: C:/Users/Asus/Desktop/GITHUB_DIGILENT/repo/transmitter_final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Asus/Desktop/GITHUB_DIGILENT/repo/transmitter_final/transmitter_final.xpr
+update_compile_order -fileset sources_1

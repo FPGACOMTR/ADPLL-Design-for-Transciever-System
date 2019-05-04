@@ -1,0 +1,645 @@
+
+*** Running vivado
+    with args -log transmitter.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source transmitter.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source transmitter.tcl -notrace
+Command: synth_design -top transmitter -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10388 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 349.469 ; gain = 78.641
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'transmitter' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:9]
+WARNING: [Synth 8-6014] Unused sequential element i_reg was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:54]
+INFO: [Synth 8-4471] merging register 'y_reg[1][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[4][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[5][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[6][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[7][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[8][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[9][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[10][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[11][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[12][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[13][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[14][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[15][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[16][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[17][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[18][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[19][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[20][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[21][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[22][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[23][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[24][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[25][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[26][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[27][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[28][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[29][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[30][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[31][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[32][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[33][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[34][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[35][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[36][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[37][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[38][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[39][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[40][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[41][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[42][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[43][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[45][7:0]' into 'y_reg[44][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[46][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[47][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[48][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[49][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[50][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[51][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[52][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[53][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[54][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[55][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[56][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[57][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[58][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[59][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[60][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[61][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[63][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[64][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[65][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[67][7:0]' into 'y_reg[66][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[68][7:0]' into 'y_reg[66][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[69][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[70][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[72][7:0]' into 'y_reg[71][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[73][7:0]' into 'y_reg[71][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[74][7:0]' into 'y_reg[44][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[75][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[76][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[78][7:0]' into 'y_reg[77][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[79][7:0]' into 'y_reg[77][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[80][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[81][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[82][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[84][7:0]' into 'y_reg[83][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[85][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[86][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[87][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[89][7:0]' into 'y_reg[88][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[90][7:0]' into 'y_reg[88][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[91][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[95][7:0]' into 'y_reg[94][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[96][7:0]' into 'y_reg[66][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[108][7:0]' into 'y_reg[77][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[152][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[157][7:0]' into 'y_reg[62][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[158][7:0]' into 'y_reg[92][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[159][7:0]' into 'y_reg[93][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[161][7:0]' into 'y_reg[93][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[162][7:0]' into 'y_reg[92][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[163][7:0]' into 'y_reg[62][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[165][7:0]' into 'y_reg[164][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[166][7:0]' into 'y_reg[164][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[167][7:0]' into 'y_reg[97][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[168][7:0]' into 'y_reg[0][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[170][7:0]' into 'y_reg[77][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[171][7:0]' into 'y_reg[77][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[172][7:0]' into 'y_reg[169][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Synth 8-4471] merging register 'y_reg[173][7:0]' into 'y_reg[3][7:0]' [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Common 17-14] Message 'Synth 8-4471' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-6014] Unused sequential element y_reg[1] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[4] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[5] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[6] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[7] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[8] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[9] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[10] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[11] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[12] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[13] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[14] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[15] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[16] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[17] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[18] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[19] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[20] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[21] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[22] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[23] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[24] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[25] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[26] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[27] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[28] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[29] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[30] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[31] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[32] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[33] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[34] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[35] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[36] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[37] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[38] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[39] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[40] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[41] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[42] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[43] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[45] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[46] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[47] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[48] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[49] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[50] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[51] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[52] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[53] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[54] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[55] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[56] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[57] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[58] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[59] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[60] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[61] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[63] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[64] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[65] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[67] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[68] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[69] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[70] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[72] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[73] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[74] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[75] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[76] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[78] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[79] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[80] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[81] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[82] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[84] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[85] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[86] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[87] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[89] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[90] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[91] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[95] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[96] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[108] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[152] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[157] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[158] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[159] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[161] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[162] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[163] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[165] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[166] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[167] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[168] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[170] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[171] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element y_reg[172] was removed.  [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:43]
+INFO: [Common 17-14] Message 'Synth 8-6014' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'transmitter' (1#1) [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/sources_1/new/transmitter.vhd:9]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 388.797 ; gain = 117.969
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 388.797 ; gain = 117.969
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/constrs_1/new/pins.xdc]
+Finished Parsing XDC File [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/constrs_1/new/pins.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Asus/Desktop/transmitter_final/transmitter_final.srcs/constrs_1/new/pins.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/transmitter_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/transmitter_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 708.789 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 708.789 ; gain = 437.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 708.789 ; gain = 437.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 708.789 ; gain = 437.961
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "y[0]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[0]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[44]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[62]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[71]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[88]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[93]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[99]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[119]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[120]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[134]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[153]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[154]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[155]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[156]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "temp_clk_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "temp_clk_out_in" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 708.789 ; gain = 437.961
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 77    
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 40    
+	   2 Input      8 Bit        Muxes := 35    
+	   3 Input      8 Bit        Muxes := 7     
+	   2 Input      7 Bit        Muxes := 16    
+	   3 Input      7 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module transmitter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 77    
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 40    
+	   2 Input      8 Bit        Muxes := 35    
+	   3 Input      8 Bit        Muxes := 7     
+	   2 Input      7 Bit        Muxes := 16    
+	   3 Input      7 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "y[88]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[93]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[99]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[119]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[120]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[134]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[153]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[154]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[155]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y[156]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "temp_clk_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "temp_clk_out_in" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (c0_inferred/\c_reg[0] )
+INFO: [Synth 8-3886] merging instance 'y_reg[160][0]' (FDS) to 'y_reg[160][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[155][0]' (FD) to 'y_reg[136][0]'
+INFO: [Synth 8-3886] merging instance 'y_reg[150][0]' (FD) to 'y_reg[122][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[149][0]' (FD) to 'y_reg[113][0]'
+INFO: [Synth 8-3886] merging instance 'y_reg[148][0]' (FD) to 'y_reg[122][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[140][0]' (FDR) to 'y_reg[140][7]'
+INFO: [Synth 8-3886] merging instance 'y_reg[139][0]' (FD) to 'y_reg[132][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[138][0]' (FD) to 'y_reg[132][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[137][0]' (FD) to 'y_reg[132][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[136][0]' (FD) to 'y_reg[109][0]'
+INFO: [Synth 8-3886] merging instance 'y_reg[134][0]' (FD) to 'y_reg[113][0]'
+INFO: [Synth 8-3886] merging instance 'y_reg[133][0]' (FD) to 'y_reg[113][0]'
+INFO: [Synth 8-3886] merging instance 'y_reg[130][0]' (FD) to 'y_reg[109][0]'
+INFO: [Synth 8-3886] merging instance 'y_reg[129][0]' (FD) to 'y_reg[109][0]'
+INFO: [Synth 8-3886] merging instance 'y_reg[128][0]' (FD) to 'y_reg[109][0]'
+INFO: [Synth 8-3886] merging instance 'y_reg[2][0]' (FD) to 'y_reg[148][1]'
+INFO: [Synth 8-3886] merging instance 'y_reg[83][0]' (FDS) to 'y_reg[83][6]'
+INFO: [Synth 8-3886] merging instance 'y_reg[127][0]' (FDR) to 'y_reg[127][4]'
+INFO: [Synth 8-3886] merging instance 'y_reg[126][0]' (FD) to 'y_reg[126][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[125][0]' (FD) to 'y_reg[109][0]'
+INFO: [Synth 8-3886] merging instance 'y_reg[121][0]' (FD) to 'y_reg[113][0]'
+INFO: [Synth 8-3886] merging instance 'y_reg[120][0]' (FD) to 'y_reg[113][0]'
+INFO: [Synth 8-3886] merging instance 'y_reg[117][0]' (FD) to 'y_reg[122][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[116][0]' (FD) to 'y_reg[122][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[114][0]' (FD) to 'y_reg[132][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[113][0]' (FD) to 'y_reg[111][0]'
+INFO: [Synth 8-3886] merging instance 'y_reg[112][0]' (FD) to 'y_reg[122][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[111][0]' (FD) to 'y_reg[107][0]'
+INFO: [Synth 8-3886] merging instance 'y_reg[109][0]' (FD) to 'y_reg[150][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[107][0]' (FD) to 'y_reg[141][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[202][1]' (FDS) to 'y_reg[0][1]'
+INFO: [Synth 8-3886] merging instance 'y_reg[169][1]' (FDS) to 'y_reg[0][1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\y_reg[160][1] )
+INFO: [Synth 8-3886] merging instance 'y_reg[153][1]' (FDS) to 'y_reg[110][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[150][1]' (FD) to 'y_reg[136][1]'
+INFO: [Synth 8-3886] merging instance 'y_reg[148][1]' (FD) to 'y_reg[2][6]'
+INFO: [Synth 8-3886] merging instance 'y_reg[144][1]' (FD) to 'y_reg[144][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[139][1]' (FD) to 'y_reg[136][1]'
+INFO: [Synth 8-3886] merging instance 'y_reg[137][1]' (FD) to 'y_reg[2][6]'
+INFO: [Synth 8-3886] merging instance 'y_reg[136][1]' (FD) to 'y_reg[130][1]'
+INFO: [Synth 8-3886] merging instance 'y_reg[131][1]' (FD) to 'y_reg[130][1]'
+INFO: [Synth 8-3886] merging instance 'y_reg[130][1]' (FD) to 'y_reg[124][1]'
+INFO: [Synth 8-3886] merging instance 'y_reg[62][1]' (FDS) to 'y_reg[0][1]'
+INFO: [Synth 8-3886] merging instance 'y_reg[2][1]' (FD) to 'y_reg[2][6]'
+INFO: [Synth 8-3886] merging instance 'y_reg[44][1]' (FDS) to 'y_reg[0][1]'
+INFO: [Synth 8-3886] merging instance 'y_reg[71][1]' (FDR) to 'y_reg[102][1]'
+INFO: [Synth 8-3886] merging instance 'y_reg[94][1]' (FD) to 'y_reg[124][1]'
+INFO: [Synth 8-3886] merging instance 'y_reg[93][1]' (FDS) to 'y_reg[102][7]'
+INFO: [Synth 8-3886] merging instance 'y_reg[92][1]' (FDS) to 'y_reg[0][1]'
+INFO: [Synth 8-3886] merging instance 'y_reg[0][1]' (FDS) to 'y_reg[3][1]'
+INFO: [Synth 8-3886] merging instance 'y_reg[3][1]' (FDS) to 'y_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[127][1]' (FDS) to 'y_reg[110][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[124][1]' (FD) to 'y_reg[118][1]'
+INFO: [Synth 8-3886] merging instance 'y_reg[123][1]' (FD) to 'y_reg[118][1]'
+INFO: [Synth 8-3886] merging instance 'y_reg[118][1]' (FD) to 'y_reg[112][1]'
+INFO: [Synth 8-3886] merging instance 'y_reg[117][1]' (FD) to 'y_reg[2][6]'
+INFO: [Synth 8-3886] merging instance 'y_reg[115][1]' (FD) to 'y_reg[112][1]'
+INFO: [Synth 8-3886] merging instance 'y_reg[112][1]' (FD) to 'y_reg[107][1]'
+INFO: [Synth 8-3886] merging instance 'y_reg[110][1]' (FDS) to 'y_reg[110][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[77][1]' (FD) to 'y_reg[77][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[107][1]' (FD) to 'y_reg[2][7]'
+INFO: [Synth 8-3886] merging instance 'y_reg[106][1]' (FDS) to 'y_reg[110][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[104][1]' (FD) to 'y_reg[2][7]'
+INFO: [Synth 8-3886] merging instance 'y_reg[102][1]' (FDR) to 'y_reg[102][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[100][1]' (FD) to 'y_reg[2][6]'
+INFO: [Synth 8-3886] merging instance 'y_reg[97][1]' (FDR) to 'y_reg[102][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[66][1]' (FD) to 'y_reg[66][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[202][2]' (FDS) to 'y_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[169][2]' (FDS) to 'y_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[160][2]' (FDS) to 'y_reg[160][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[164][2]' (FD) to 'y_reg[164][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[156][2]' (FD) to 'y_reg[150][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[151][2]' (FDS) to 'y_reg[151][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[150][2]' (FD) to 'y_reg[147][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[147][2]' (FD) to 'y_reg[142][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[146][2]' (FD) to 'y_reg[122][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[142][2]' (FD) to 'y_reg[112][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[141][2]' (FD) to 'y_reg[139][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[139][2]' (FD) to 'y_reg[115][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[137][2]' (FD) to 'y_reg[2][7]'
+INFO: [Synth 8-3886] merging instance 'y_reg[136][2]' (FD) to 'y_reg[122][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[135][2]' (FD) to 'y_reg[135][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[134][2]' (FD) to 'y_reg[134][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[131][2]' (FD) to 'y_reg[112][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[130][2]' (FD) to 'y_reg[132][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[62][2]' (FDS) to 'y_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[2][2]' (FD) to 'y_reg[2][6]'
+INFO: [Synth 8-3886] merging instance 'y_reg[44][2]' (FDS) to 'y_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[71][2]' (FDR) to 'y_reg[102][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[94][2]' (FD) to 'y_reg[115][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[93][2]' (FDS) to 'y_reg[160][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[92][2]' (FDS) to 'y_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[88][2]' (FDS) to 'y_reg[88][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[83][2]' (FDS) to 'y_reg[83][6]'
+INFO: [Synth 8-3886] merging instance 'y_reg[0][2]' (FDS) to 'y_reg[3][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[3][2]' (FDS) to 'y_reg[0][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[127][2]' (FDS) to 'y_reg[110][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[124][2]' (FD) to 'y_reg[122][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[123][2]' (FD) to 'y_reg[112][2]'
+INFO: [Synth 8-3886] merging instance 'y_reg[120][2]' (FD) to 'y_reg[120][3]'
+INFO: [Synth 8-3886] merging instance 'y_reg[119][2]' (FD) to 'y_reg[119][3]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\y_reg[110][2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\y_reg[2][6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\y_reg[3][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\y_reg[2][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\y_reg[3][7] )
+WARNING: [Synth 8-3332] Sequential element (y_reg[160][1]) is unused and will be removed from module transmitter.
+WARNING: [Synth 8-3332] Sequential element (c_reg[0]) is unused and will be removed from module transmitter.
+WARNING: [Synth 8-3332] Sequential element (y_reg[110][2]) is unused and will be removed from module transmitter.
+WARNING: [Synth 8-3332] Sequential element (y_reg[2][6]) is unused and will be removed from module transmitter.
+WARNING: [Synth 8-3332] Sequential element (y_reg[2][7]) is unused and will be removed from module transmitter.
+WARNING: [Synth 8-3332] Sequential element (y_reg[3][6]) is unused and will be removed from module transmitter.
+WARNING: [Synth 8-3332] Sequential element (y_reg[3][7]) is unused and will be removed from module transmitter.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 708.789 ; gain = 437.961
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:58 ; elapsed = 00:01:00 . Memory (MB): peak = 708.789 ; gain = 437.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:58 ; elapsed = 00:01:01 . Memory (MB): peak = 708.789 ; gain = 437.961
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:58 ; elapsed = 00:01:01 . Memory (MB): peak = 708.789 ; gain = 437.961
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:59 ; elapsed = 00:01:02 . Memory (MB): peak = 708.789 ; gain = 437.961
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:59 ; elapsed = 00:01:02 . Memory (MB): peak = 708.789 ; gain = 437.961
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:59 ; elapsed = 00:01:02 . Memory (MB): peak = 708.789 ; gain = 437.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:59 ; elapsed = 00:01:02 . Memory (MB): peak = 708.789 ; gain = 437.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:59 ; elapsed = 00:01:02 . Memory (MB): peak = 708.789 ; gain = 437.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:59 ; elapsed = 00:01:02 . Memory (MB): peak = 708.789 ; gain = 437.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |     4|
+|3     |LUT1   |    21|
+|4     |LUT2   |    24|
+|5     |LUT3   |    13|
+|6     |LUT4   |    26|
+|7     |LUT5   |    65|
+|8     |LUT6   |   101|
+|9     |MUXF7  |    33|
+|10    |MUXF8  |     5|
+|11    |FDRE   |    77|
+|12    |FDSE   |    13|
+|13    |IBUF   |     1|
+|14    |OBUF   |     8|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   393|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:59 ; elapsed = 00:01:02 . Memory (MB): peak = 708.789 ; gain = 437.961
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 11 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:39 ; elapsed = 00:00:49 . Memory (MB): peak = 708.789 ; gain = 117.969
+Synthesis Optimization Complete : Time (s): cpu = 00:01:00 ; elapsed = 00:01:02 . Memory (MB): peak = 708.789 ; gain = 437.961
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+252 Infos, 107 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:02 ; elapsed = 00:01:07 . Memory (MB): peak = 708.789 ; gain = 446.238
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Asus/Desktop/transmitter_final/transmitter_final.runs/synth_1/transmitter.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 708.789 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat May  4 14:14:11 2019...

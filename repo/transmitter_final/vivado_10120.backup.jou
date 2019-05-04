@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sat May  4 17:47:45 2019
+# Process ID: 10120
+# Current directory: C:/Users/Asus/Desktop/transmitter_final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17988 C:\Users\Asus\Desktop\transmitter_final\transmitter_final.xpr
+# Log file: C:/Users/Asus/Desktop/transmitter_final/vivado.log
+# Journal file: C:/Users/Asus/Desktop/transmitter_final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Asus/Desktop/transmitter_final/transmitter_final.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210351A77F99A}
+set_property PROGRAM.FILE {C:/Users/Asus/Desktop/transmitter_final/transmitter_final.runs/impl_1/transmitter.bit} [get_hw_devices xc7z010_1]
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z010_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/Asus/Desktop/transmitter_final/transmitter_final.runs/impl_1/transmitter.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+close_hw
