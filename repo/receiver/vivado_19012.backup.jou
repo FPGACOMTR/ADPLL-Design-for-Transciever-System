@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sat May  4 17:44:55 2019
+# Process ID: 19012
+# Current directory: C:/Users/Asus/Desktop/receiver
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12200 C:\Users\Asus\Desktop\receiver\receiver.xpr
+# Log file: C:/Users/Asus/Desktop/receiver/vivado.log
+# Journal file: C:/Users/Asus/Desktop/receiver\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Asus/Desktop/receiver/receiver.xpr
+update_compile_order -fileset sources_1
