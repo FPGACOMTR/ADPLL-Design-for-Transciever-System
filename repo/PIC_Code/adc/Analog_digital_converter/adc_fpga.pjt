@@ -1,0 +1,24 @@
+[PROJECT]
+Target=adc_fpga.hex
+Development_Mode=
+Processor_Text=PIC16F877A
+ToolSuite=CCS
+Processor=0x877A
+[adc_fpga]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=adc_fpga
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Units]
+Link=0
+Count=1
+1=adc_fpga.c
+[Opened Files]
+1=C:\Users\Asus\Desktop\adc\adc\Analog_digital_converter\adc_fpga.c
+2=

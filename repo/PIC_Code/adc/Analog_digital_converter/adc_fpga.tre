@@ -1,0 +1,6 @@
+ÀÄadc_fpga
+   ÃÄMAIN  0/99  Ram=1
+   ³  ÃÄ??0??
+   ³  ÀÄ@delay_us2  0/17  Ram=1
+   ÀÄADC_Kesmesi  0/27  Ram=0
+      ÀÄ@delay_ms2  (Inline)  Ram=1
