@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "secureip" -o "D:/Dosyalar/BITIRME/PLL_CA_BO/TBCABO_8_isim_beh.exe" -prj "D:/Dosyalar/BITIRME/PLL_CA_BO/TBCABO_8_beh.prj" "work.TBCABO_8" 
