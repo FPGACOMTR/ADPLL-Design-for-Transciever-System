@@ -1,7 +1,0 @@
-V3 3
-FL D:/Dosyalar/BITIRME/PLL_CA_BO/PLL_CO_BO.vhd 2019/04/04.17:11:09 P.28xd
-EN work/PLL_CO_BO 1554387075 FL D:/Dosyalar/BITIRME/PLL_CA_BO/PLL_CO_BO.vhd \
-      PB ieee/std_logic_1164 1341906176 PB ieee/std_logic_arith 1341906177 \
-      PB ieee/std_logic_misc 1341906178 PB ieee/STD_LOGIC_UNSIGNED 1341906179
-AR work/PLL_CO_BO/Behavioral 1554387076 \
-      FL D:/Dosyalar/BITIRME/PLL_CA_BO/PLL_CO_BO.vhd EN work/PLL_CO_BO 1554387075
